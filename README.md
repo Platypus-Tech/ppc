@@ -1,2 +1,14 @@
-# ppc
-The Pigeon Potato Compiler (yeah, I know that's crazy)
+# The Pigeon Potato Compiler
+
+```
+       ____
+   ___/   * >
+ /   \__
+/       )
+\______/
+  |  |
+  |  |
+ /\ /\
+```
+
+OMG THAT LOOKS LIKE A DEFORMED STORK
