@@ -5,12 +5,15 @@
 #include <stdio.h>
 
 int main(int argc, char argv){
-    if(argc < 1){ // if there are no arguments
+    if(argc < 1)
+    { // if there are no arguments
         printf("Error: no arguments");
         return(1); // Error
     }
-    else if(argc <= 1){
-        if(argv == "help"){ // If you need help
+    else if(argc <= 1)
+    {
+        if(argv == "help")
+        { // If you need help
             printf("Welcome to the Pigeon Potato Compiler!\n");
             printf("It's in alpha stage, so really, there is no way to compile anything...\tyet.\n");
             printf("You can try though, so here's the syntax to not compile anything (if ppc is in usr/bin):\n\n");
@@ -20,7 +23,19 @@ int main(int argc, char argv){
             printf("NOTE: NO SPACES IN FILENAMES.");
             return(0); // It's good
         }
-        else{ // something... else. Maybe you said ppc astro-zombies
+        else if(argv == "astro-zombies")
+        {
+            printf("Prime directive, exterminate");
+            printf("The whole human race");
+            printf("And your face drops in a pile of flesh");
+            printf("And then your heart, heart pounds");
+            printf("Till it pumps in death");
+            printf("Prime directive, exterminate");
+            printf("Whatever stands left");
+            return(0);
+        }
+        else
+        {
             printf("IG you're trying to compile a file, but currently, there's no way to compile anything :(");
             return(0);
         }
