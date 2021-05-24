@@ -21,22 +21,25 @@ int main(int argc, char argv){
             printf("If ppc is in your current directory, you just add ./ to the beginning, like this:\n\n");
             printf("./ppc <C source file>\n\n");
             printf("NOTE: NO SPACES IN FILENAMES.");
+            printf("This Pigeon Potato listens to punk rock");
             return(0); // It's good
         }
         else if(argv == "astro-zombies")
         {
-            printf("Prime directive, exterminate");
-            printf("The whole human race");
-            printf("And your face drops in a pile of flesh");
-            printf("And then your heart, heart pounds");
-            printf("Till it pumps in death");
-            printf("Prime directive, exterminate");
-            printf("Whatever stands left");
+            printf("Prime directive, exterminate\n");
+            printf("The whole human race\n");
+            printf("And your face drops in a pile of flesh\n");
+            printf("And then your heart, heart pounds\n");
+            printf("Till it pumps in death\n");
+            printf("Prime directive, exterminate\n");
+            printf("Whatever stands left\n\n");
+            printf("Those lyrics are from the Misfit's song Astro-Zombies.");
             return(0);
         }
         else
         {
-            printf("IG you're trying to compile a file, but currently, there's no way to compile anything :(");
+            printf("IG you're trying to compile a file, but currently, there's no way to compile anything :(\n");
+            printf("If you want to read a few Misfits lyrics, try ppc astro-zombies.");
             return(0);
         }
     }
