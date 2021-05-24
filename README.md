@@ -42,3 +42,5 @@ Of course, I can't compile anything yet. You can, though, get help (I think):
 you@some-linux-distro:~$ ppc help
 ```
 That's if it's in usr/bin, but you know how to do it if it's not (if it snot!).
+## Are there any Easter Eggs?
+Of course there are! Try `ppc astro-zombies`... hint-hint, [Astro-Zombies lyrics](https://www.google.com/search?q=lyrics+to+astro-zombies&rlz=1CASICM_enUS950&oq=lyrics+to+astro-zombies&aqs=chrome..69i57.9921j0j7&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)...
