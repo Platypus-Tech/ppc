@@ -3,18 +3,25 @@
 ```
        ____
    ___/   * >
- /   \__
-/       )
+ /   \__/
+(       )
 \______/
   |  |
   |  |
  /\ /\
 ```
 
-OMG THAT LOOKS LIKE A DEFORMED STORK
+OMG THAT LOOKS LIKE A DEFORMED STORK, IT'S SUPPOSED TO LOOK LIKE A PIGEON WITH A POTATO BODY.
 ***
-This should work on Linux.
+## About
+This compiler is in alpha stage, and is going to be able to compile C, C++, D, etc. Here's the direct order of what I want to do those in:
+1. C
+2. C++
+3. D
+4. C#
+5. Ada
 ## Building
+This should work on Linux.
 ```shell
 git clone https://github.com/Platypus-Tech/ppc.git
 cd ppc
