@@ -25,9 +25,9 @@ This should work on Linux.
 ```shell
 git clone https://github.com/Platypus-Tech/ppc.git
 cd ppc
-gcc ppc.c -o ppc # you can use any compiler you want, like cc or clang, just as long as you can use it.
+make
 ```
-I know it's ironic that you still have to `GCC` or `CC` it, I have yet to implement `Makefile`s.
+You can use `gcc`, `cc`, or `clang`, but that's messed up.
 ## Usage
 If you put ppc in `/usr/bin`, you would do this:
 ```
