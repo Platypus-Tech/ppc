@@ -10,7 +10,7 @@
  /\ /\
 ```
 
-Uh, how deformed-stork-y is that.
+Uh, how deformed-stork-y is that?
 ***
 ## About
 This compiler is in alpha stage, and is going to be able to compile C, C++, D, etc. Here's the direct order of what I want to do those in:
