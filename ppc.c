@@ -20,8 +20,8 @@ int main(int argc, char argv){
             printf("ppc <C source file>\n\n");
             printf("If ppc is in your current directory, you just add ./ to the beginning, like this:\n\n");
             printf("./ppc <C source file>\n\n");
-            printf("NOTE: NO SPACES IN FILENAMES.");
-            printf("This Pigeon Potato listens to punk rock");
+            printf("NOTE: NO SPACES IN FILENAMES. I think, maybe you can do something like ppc cool\\ file, idk.");
+            printf("This Pigeon Potato likes Astro-Zombies by the Misfits");
             return(0); // It's good
         }
         else if(argv == "astro-zombies")
@@ -33,7 +33,7 @@ int main(int argc, char argv){
             printf("Till it pumps in death\n");
             printf("Prime directive, exterminate\n");
             printf("Whatever stands left\n\n");
-            printf("Those lyrics are from the Misfit's song Astro-Zombies.");
+            printf("Those lyrics are from the Misfits' song Astro-Zombies.");
             return(0);
         }
         else
