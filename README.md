@@ -7,11 +7,10 @@
 (       )
 \______/
   |  |
-  |  |
  /\ /\
 ```
 
-OMG THAT LOOKS LIKE A DEFORMED STORK, IT'S SUPPOSED TO LOOK LIKE A PIGEON WITH A POTATO BODY.
+Uh, how deformed-stork-y is that.
 ***
 ## About
 This compiler is in alpha stage, and is going to be able to compile C, C++, D, etc. Here's the direct order of what I want to do those in:
