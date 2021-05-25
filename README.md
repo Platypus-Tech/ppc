@@ -26,7 +26,7 @@ git clone https://github.com/Platypus-Tech/ppc.git
 cd ppc
 make
 ```
-You can use `gcc`, `cc`, or `clang`, but that's messed up. Actually, the `Makefile` uses GCC to compile `ppc.c`. Ah, fudge it.
+You can use `gcc`, `cc`, or `clang`, but that's messed up. Actually, the `Makefile` uses CC to compile `ppc.c`. Ah, fudge it.
 ## Usage
 If you put ppc in `/usr/bin`, you would do this:
 ```
