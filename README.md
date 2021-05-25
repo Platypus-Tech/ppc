@@ -7,7 +7,7 @@
      //(       )
     // \______/
          |  |
-        /\ /\
+        /|\ /|\
 ```
 
 Uh, how deformed-stork-y is that?
