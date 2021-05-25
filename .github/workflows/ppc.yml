@@ -15,3 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: make
       run: make
+    - name: Funny message
+      run: echo WOOT WOOT IT WORKS
