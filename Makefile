@@ -1,5 +1,5 @@
-all: ppc.c 
-	gcc -g -Wall -o ppc ppc.c
+all: ppc.c
+	cc -g -o ppc ppc.c
 
-clean: 
+clean:
 	$(RM) ppc
