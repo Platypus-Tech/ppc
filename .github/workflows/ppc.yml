@@ -19,3 +19,5 @@ jobs:
       run: echo WOOT WOOT IT WORKS
     - name: list stuff
       run: ls
+    - name: run the compiler
+      run: ./ppc help
