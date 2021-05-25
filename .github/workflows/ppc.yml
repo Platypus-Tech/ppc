@@ -1,4 +1,4 @@
-name: Pigeon Potato Tester
+name: Pigeon Potato Compiler Tester
 
 on:
   push:
@@ -23,3 +23,5 @@ jobs:
       run: ./ppc help
     - name: Punk rock time
       run: ./ppc astro-zombies
+    - name: clean
+      run: rm ppc
