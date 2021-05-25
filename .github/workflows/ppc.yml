@@ -25,3 +25,5 @@ jobs:
       run: ./ppc astro-zombies
     - name: clean
       run: rm ppc
+    - name: List more stuff
+      run: ls
