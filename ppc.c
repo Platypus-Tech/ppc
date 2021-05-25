@@ -4,7 +4,7 @@
  ********************************************************/
 #include <stdio.h>
 
-int main(int argc, char argv){
+int main(int argc, char *argv[]){
     if(argc < 0)
     { // if there are no arguments
         printf("Error: no arguments");
@@ -12,7 +12,7 @@ int main(int argc, char argv){
     }
     else if(argc >= 1)
     {
-        if(argv == "help")
+        if(argv[1] == "help")
         { // If you need help
             printf("Welcome to the Pigeon Potato Compiler!\n");
             printf("It's in alpha stage, so really, there is no way to compile anything...\tyet.\n");
@@ -24,7 +24,7 @@ int main(int argc, char argv){
             printf("This Pigeon Potato likes Astro-Zombies by the Misfits");
             return(0); // It's good
         }
-        else if(argv == "astro-zombies")
+        else if(argv[1] == "astro-zombies")
         {
             printf("Prime directive, exterminate\n");
             printf("The whole human race\n");
