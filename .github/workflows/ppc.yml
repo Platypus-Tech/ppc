@@ -17,7 +17,9 @@ jobs:
       run: make
     - name: Funny message
       run: echo WOOT WOOT IT WORKS
-    - name: list stuff
+    - name: List stuff
       run: ls
-    - name: run the compiler
+    - name: Run the compiler
       run: ./ppc help
+    - name: Punk rock time
+      run: ./ppc astro-zombies
