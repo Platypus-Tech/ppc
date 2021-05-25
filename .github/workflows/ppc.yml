@@ -17,3 +17,5 @@ jobs:
       run: make
     - name: Funny message
       run: echo WOOT WOOT IT WORKS
+    - name: list stuff
+      run: ls
