@@ -1,13 +1,13 @@
 # The Pigeon Potato Compiler
 
 ```
-       ____
-   ___/   * >
- /   \__/
-(       )
-\______/
-  |  |
- /\ /\
+              ____
+          ___/   * >
+      __/   \__/
+     //(       )
+    // \______/
+         |  |
+        /\ /\
 ```
 
 Uh, how deformed-stork-y is that?
