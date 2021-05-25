@@ -5,12 +5,12 @@
 #include <stdio.h>
 
 int main(int argc, char argv){
-    if(argc < 1)
+    if(argc < 0)
     { // if there are no arguments
         printf("Error: no arguments");
         return(1); // Error
     }
-    else if(argc <= 1)
+    else if(argc >= 1)
     {
         if(argv == "help")
         { // If you need help
