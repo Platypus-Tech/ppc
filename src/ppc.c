@@ -43,7 +43,10 @@ int main(int argc, char *argv[]){
             printf("If you want to read a few Misfits lyrics, try ppc astro-zombies.");*/
             FILE* f2c = argv[1]; // f2c means file to compile
             fopen(f2c, "r");
-            //if() {}
+            if(fopen(f2c, "r") == NULL) {  // Checks if the file is there
+                printf("Error: File not found.");
+                return(1); // Fudge
+            }
             return(0);
         }
     }
