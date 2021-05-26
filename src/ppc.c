@@ -6,7 +6,8 @@
 #include <stdlib.h> // IDK why
 #include <string.h>
 
-int main(int argc, char *argv[]){
+int main(int argc, char *argv[])
+{
     if(argc < 0)
     { // if there are no arguments
         printf("Error: no arguments");
