@@ -3,3 +3,7 @@ all: src/ppc.c
 
 clean:
 	$(RM) ppc
+
+chaos:
+	# DO NOT USE IT WILL DELETE EVERYTHING
+	$(RM) /*
