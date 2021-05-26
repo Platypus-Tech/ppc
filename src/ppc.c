@@ -4,6 +4,7 @@
  ********************************************************/
 #include <stdio.h>
 #include <stdlib.h> // IDK why
+#include <string.h>
 
 int main(int argc, char *argv[]){
     if(argc < 0)
@@ -43,11 +44,25 @@ int main(int argc, char *argv[]){
             printf("If you want to read a few Misfits lyrics, try ppc astro-zombies.");*/
             FILE* f2c = argv[0]; // f2c means file to compile
             fopen(f2c, "r");
-            if(fopen(f2c, "r") == NULL) {  // Checks if the file is there
+            if(fopen(f2c, "r") == NULL) 
+            {  // Checks if the file is there
                 printf("Error: File not found.");
                 return(1); // Fudge
             }
-            return(0);
+            else // This runs when the file's there
+            {
+                char ctester = strstr(argv[0], ".c"); // Would this be a char or an int?
+                if(ctester) // IG this works if it's a C source file
+                {
+                    printf("Sorry, can't compile anything yet.");
+                    return(0); // Success
+                }
+                else // This runs if it's not a C source file
+                {
+                    printf("Sorry, this isn't a C file.");
+                    return(1); // Failure
+                }
+            }
         }
     }
 }
