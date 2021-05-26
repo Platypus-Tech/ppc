@@ -17,13 +17,15 @@ jobs:
       run: make
     - name: Funny message
       run: echo WOOT WOOT IT WORKS
+    - name: Create blank file
+      run: touch newfile.c
     - name: List stuff
       run: ls
     - name: Run the compiler
-      run: ./ppc help
-    - name: Punk rock time
-      run: ./ppc astro-zombies
-    - name: clean
+      run: ./ppc newfile.c
+    - name: Kill executable file
       run: rm ppc
+    - name: Kill newfile.c
+      run: rm newfile.c
     - name: List more stuff
       run: ls
