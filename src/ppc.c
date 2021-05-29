@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
     if(argc < 0)
     { // if there are no arguments
-        printf("Error: no arguments");
+        printf("Error: no arguments\n");
         return(1); // Error
     }
     else if(argc >= 1)
@@ -23,8 +23,8 @@ int main(int argc, char *argv[])
             printf("ppc <C source file>\n\n");
             printf("If ppc is in your current directory, you just add ./ to the beginning, like this:\n\n");
             printf("./ppc <C source file>\n\n");
-            printf("NOTE: NO SPACES IN FILENAMES. I think, maybe you can do something like ppc cool\\ file, idk.");
-            printf("This Pigeon Potato likes Astro-Zombies by the Misfits");
+            printf("NOTE: NO SPACES IN FILENAMES. I think, maybe you can do something like ppc cool\\ file, idk.\n");
+            printf("This Pigeon Potato likes Astro-Zombies by the Misfits\n");
             return(0); // It's good
         }
         else if(argv[0] == "astro-zombies")
@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
             printf("Till it pumps in death\n");
             printf("Prime directive, exterminate\n");
             printf("Whatever stands left\n\n");
-            printf("Those lyrics are from the Misfits' song Astro-Zombies.");
+            printf("Those lyrics are from the Misfits' song Astro-Zombies.\n");
             return(0);
         }
         else
@@ -47,7 +47,7 @@ int main(int argc, char *argv[])
             fopen(f2c, "r");
             if(fopen(f2c, "r") == NULL) 
             {  // Checks if the file is there
-                printf("Error: File not found.");
+                printf("Error: File not found.\n");
                 return(1); // Fudge
             }
             else // This runs when the file's there
@@ -55,12 +55,12 @@ int main(int argc, char *argv[])
                 char ctester = strstr(argv[0], ".c"); // Would this be a char or an int?
                 if(ctester) // IG this works if it's a C source file
                 {
-                    printf("Sorry, can't compile anything yet.");
+                    printf("Sorry, can't compile anything yet.\n");
                     return(0); // Success
                 }
                 else // This runs if it's not a C source file
                 {
-                    printf("Sorry, this isn't a C file.");
+                    printf("Sorry, this isn't a C file.\n");
                     return(1); // Failure
                 }
             }
