@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     }
     else if(argc >= 1)
     {
-        if(argv[0] == "help")
+        if(strcmp(argv[0], "help") == 0)
         { // If you need help
             printf("Welcome to the Pigeon Potato Compiler!\n");
             printf("It's in alpha stage, so really, there is no way to compile anything...\tyet.\n");
@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
             printf("This Pigeon Potato likes Astro-Zombies by the Misfits\n");
             return(0); // It's good
         }
-        else if(argv[0] == "astro-zombies")
+        else if(strcmp(argv[0], "astro-zombies") == 0)
         {
             printf("Prime directive, exterminate\n");
             printf("The whole human race\n");
