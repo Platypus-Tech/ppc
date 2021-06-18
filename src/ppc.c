@@ -41,8 +41,6 @@ int main(int argc, char *argv[])
         }
         else
         {
-            printf("IG you're trying to compile a file, but currently, there's no way to compile anything :(\n");
-            printf("If you want to read a few Misfits lyrics, try ppc astro-zombies.");
             FILE* f2c = argv[0]; // f2c means file to compile
             fopen(f2c, "r");
             if(fopen(f2c, "r") == NULL) 
